@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "3F2D9BE6-0308-4A0F-A79A-4CDDBBCC323D",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:JokeApp.xcodeproj",
+      "identifier" : "C55B07332AC5EF4C00F5A909",
+      "name" : "JokeApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:JokeApp.xcodeproj",
+        "identifier" : "C55B074C2AC5EF4F00F5A909",
+        "name" : "JokeAppTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:JokeApp.xcodeproj",
+        "identifier" : "C55B07562AC5EF4F00F5A909",
+        "name" : "JokeAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
